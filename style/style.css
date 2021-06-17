@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    background-color: #eee;
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.createTask {
+    padding: 15px 0;
+    border-top: 1px solid rgb(201, 201, 201);
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.addTask {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.taskInput {
+    padding: 3px 5px;
+    border: 2px rgb(14, 14, 14) solid;
+    color: rgb(14, 14, 14);
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.addTaskButton {
+    border: none;
+    padding: 5px 25px;
+    color: rgb(237, 237, 237);
+    background-color: rgb(14, 14, 14);
+}
+
+.taskControl {
+    margin: 15px 0;
+}
+
+.removeButton {
+    margin-right: 15px;
+}
+
+.taskItem {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px rgb(201, 201, 201) solid;
+}
+
+.taskText {
+    font-size: 14px;
+    padding: 5px 0;
+    max-width: 200px;
+}
+
+.taskReadyButton {
+    margin-right: 15px;
+}
+
+.taskReadyChecker {
+    height: 60px;
+    width: 60px;
+    border: 3px rgb(233, 70, 33) solid ;
+    /* rgb(24, 174, 116) */
+    border-radius: 50%;
+    border-width: 3px;
+}
+
+.completed {
+    border: 3px rgb(24, 174, 116) solid ;
+}
